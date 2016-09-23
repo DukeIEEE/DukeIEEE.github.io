@@ -1,5 +1,11 @@
 .pls{
-    max-width:150px;
+    max-width:200px;
     max-height:200px;
   
+}
+.col-sm-3{
+    padding-top:40px;
+}
+#officers{
+    padding-top:60px;
 }

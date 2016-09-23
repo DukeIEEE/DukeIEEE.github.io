@@ -12,12 +12,10 @@
     <title>Duke IEEE</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     
-
+    <link rel="stylesheet" href="css/officers.css" type="text/css">
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
@@ -25,14 +23,20 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creativemedia.css" type="text/css">
-    <link rel="stylesheet" href="css/media.css" type="text/css">
+    <link rel="stylesheet" href="css/officers.css" type="text/css">
+    
 
-
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
 <body id="page-top">
-   
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -43,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">Duke IEEE</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Duke IEEE</a>
             </div>
 
 
@@ -65,7 +69,7 @@
                         <a class="page-scroll" href="officers.html">Officers</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="subscribe.html">Subscribe</a>
+                       <a class="page-scroll" href="subscribe.html">Subscribe</a>
                     </li>
                 </ul>
             </div>
@@ -73,47 +77,60 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-     <section  id="mediaInfo">
+  
+ 
+        
+  
+
+    <section id="officers">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 ">
-                    <h2 class="section-heading text-center">Image Gallery</h2>
-                </div>
-            </div>
+                 <h2><b>Officers for 2015-2016</b></h2>
+                <section class="col-sm-3">
+                <img src="img/boardpics2016/mason.png" class="img-responsive img-rounded pls ">
+                <h3> Mason Zhang</h3>
+                <p>Treasurer</p>
+                <p>Mason is a Pratt BME/ECE sophomore considering dropping BME for CS. He enjoys playing Super Smash Bros Melee.</p>
+            </section>
+   
+
+        <section class="col-sm-3">
+        <img src="img/boardpics/MichaelDeng.png" class="img-responsive img-rounded pls" >
+        <h3> Michael Deng</h3>
+        <p> Senior Advisor</p>
+        </section>
+        
+         <section class="col-sm-3">
+        <img src="img/boardpics/ZachBears.png" class="img-responsive img-rounded pls" >
+        <h3>Zachary Bears</h3>
+        <p> Senior Advisor</p>
+        </section>
+         <section class="col-sm-3">
+        <img src="img/boardpics/owen.jpg" class="img-responsive img-rounded pls" >
+        <h3> Owen Chung</h3>
+        <p> Co-President</p>
+        </section>
+         <section class="col-sm-3">
+        <img src="img/boardpics/tom_wu.jpg" class="img-responsive img-rounded pls" >
+        <h3>Tom Wu</h3>
+        <p> Co-President</p>
+        </section>
+         <section class="col-sm-3">
+        <img src="img/boardpics/jennie_ju.jpg" class="img-responsive img-rounded pls" >
+        <h3>Jennie Ju</h3>
+        <p> Treasurer</p>
+        </section>
+         <section class="col-sm-3">
+        <img src="img/boardpics/ningrui.jpg" class="img-responsive img-rounded pls" >
+        <h3>Ningrui Li</h3>
+        <p> Secretary</p>
+        </section>
+        
         </div>
     </section>
-    <section id="gallery">
-         <div class="content container" id="pictures">
-      <div class="row">
-          <div class="carousel slide" id="featured">
-              <div class="carousel-inner">
-                  <div class="item active">
-                 <img src="img/hi.jpg">
-                  </div>
-                   <?php $dirname = "img/ieeeGallery/";
-                    $images = glob($dirname."*.jpg");
-                    foreach($images as $image) {
-                            echo "<div class='item'><img src='".$image."' /></div>";
-            } ?>
-              </div> <!-- carousel inner -->
-             
-          <a class="left carousel-control"
-              href="#featured" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control"
-              href="#featured" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-           </div> 
+        
 
-      </div><!-- row -->
-  </div><!-- content container -->
-    </section>
 
-    
-
-    <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -131,7 +148,6 @@
                 </div>
             </div>
         </div>
-    </section>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

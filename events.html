@@ -12,7 +12,7 @@
     <title>Duke IEEE</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     
 
     <!-- Custom Fonts -->
@@ -25,14 +25,20 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creativemedia.css" type="text/css">
-    <link rel="stylesheet" href="css/media.css" type="text/css">
+    <link rel="stylesheet" href="css/events.css" type="text/css">
 
-
-
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
 </head>
 
 <body id="page-top">
-   
+    
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -43,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">Duke IEEE</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Duke IEEE</a>
             </div>
 
 
@@ -73,44 +79,25 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-     <section  id="mediaInfo">
+    <section id="calendar">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 ">
-                    <h2 class="section-heading text-center">Image Gallery</h2>
+                <center><iframe src="https://calendar.google.com/calendar/embed?src=ieee.duke%40gmail.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></center> <!-- DONT USE CENTER LOL -->
+            <br>
+           
+               <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="section-heading  text-center">Weekly Meetings</h2>
+                    <hr class="primary">
+                    <p class="text-center">1-4pm Saturday in the Basement of the Foundry</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="section-heading  text-center">Major Planned Events</h2>
+                    <hr class="primary">
+                    <p class="text-center">Nothing Yet!</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="gallery">
-         <div class="content container" id="pictures">
-      <div class="row">
-          <div class="carousel slide" id="featured">
-              <div class="carousel-inner">
-                  <div class="item active">
-                 <img src="img/hi.jpg">
-                  </div>
-                   <?php $dirname = "img/ieeeGallery/";
-                    $images = glob($dirname."*.jpg");
-                    foreach($images as $image) {
-                            echo "<div class='item'><img src='".$image."' /></div>";
-            } ?>
-              </div> <!-- carousel inner -->
-             
-          <a class="left carousel-control"
-              href="#featured" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control"
-              href="#featured" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-           </div> 
-
-      </div><!-- row -->
-  </div><!-- content container -->
-    </section>
-
     
 
     <section id="contact">

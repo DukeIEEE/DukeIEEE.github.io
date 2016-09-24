@@ -1,0 +1,6 @@
+-Need board members to reply with pic + info for officers.html
+-change bottom of the home page to actual projects
+-create a past projects page
+-do more testing on mobile responsiveness 
+-improve image gallery section? 
+-change logo?

@@ -1,6 +1,14 @@
-#logo{
-	max-width:400px;
+
+#imgcontainer{
 	margin-right: auto;
 	margin-left: auto;
-
+	max-width:400px;
+}
+.btn-responsive {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+html{
+	width:100%;
+	
 }

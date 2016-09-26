@@ -4,3 +4,13 @@
 #calendar{
     padding-bottom: 0px;
 }
+.responsiveCal {
+ 
+position: relative; padding-bottom: 50%; height: 0; overflow: hidden;
+
+}
+ 
+.responsiveCal iframe { /*https://thomas.vanhoutte.be/miniblog/make-google-calendar-iframe-responsive/ */
+
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+} 

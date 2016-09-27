@@ -1,6 +1,9 @@
--Need board members to reply with pic + info for officers.html
+Essential
+-edit projects page text and add images
+-Need alex to reply with pic + info for officers.html
+-----------------------------------
+Non-essential
+-improve image gallery section, use js instead of manually adding img, change style of image page
 -change around the project in the bottom of the homepage
--finish projects page
 -do more testing on mobile responsiveness 
--improve image gallery section? -make non php  
 -change logo?

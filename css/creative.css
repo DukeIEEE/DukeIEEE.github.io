@@ -389,10 +389,10 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open> .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #0736A4;
     color: #fff;
-    background-color: #ee4b28;
-    font-size: 1.6em;
+    background-color: #0736A4;
+    /*font-size: 1.6em; This makes the button larger but doesn't resize after click fml*/
 }
 
 .btn-primary:active,

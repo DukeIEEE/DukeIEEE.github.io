@@ -1,9 +1,17 @@
 Essential
--edit projects page text and add images
+-expand image gallery page by adding more images and maybe add other content since the page is very bland rn
+	-improve image gallery section, use js instead of manually adding img, change style of image page
+-Change style of none homepages so it alternates colors
+	-Combine Events and Media?
+-Change text size and spacing for projects page so it doesn't look ridiculously long
+	-Same with officers page
+-Add members instead of officers in the page
 -Need alex to reply with pic + info for officers.html
+
 -----------------------------------
 Non-essential
--improve image gallery section, use js instead of manually adding img, change style of image page
+-change logo?
+-add cool animations to the homepage
 -change around the project in the bottom of the homepage
 -do more testing on mobile responsiveness 
--change logo?
+

@@ -14,4 +14,5 @@ Non-essential
 -add cool animations to the homepage
 -change around the project in the bottom of the homepage
 -do more testing on mobile responsiveness 
+-transition away from creative theme
 

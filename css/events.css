@@ -1,20 +1,32 @@
-#contact{
-     padding-top: 0px;
-}
-h2{
-	padding-top:20px;
-	padding-bottom:20px
-}
+
 #calendar{
-    padding-bottom: 0px;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 .responsiveCal {
  
 position: relative; padding-bottom: 50%; height: 0; overflow: hidden;
 
 }
- 
+.primary{
+	border-color:white;
+}
+a{
+	color:white;
+}
+a:hover,
+a:focus {
+    color: white;
+}
+#pictures{
+	max-width: 800px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+#mediaInfo{
+    padding-bottom:40px;
+}
 .responsiveCal iframe { /*https://thomas.vanhoutte.be/miniblog/make-google-calendar-iframe-responsive/ */
 
 position: absolute; top:0; left: 0; width: 100%; height: 100%;

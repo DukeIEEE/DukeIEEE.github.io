@@ -10,3 +10,6 @@ section{
 .title{
 	padding-top:20px;
 }
+.img-responsive {
+    margin: 0 auto;
+}

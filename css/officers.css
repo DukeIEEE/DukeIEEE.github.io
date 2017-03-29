@@ -3,10 +3,23 @@
     max-height:200px;
   
 }
+.img-responsive {
+    margin: 0 auto;
+}
 .col-sm-3{
     padding-top:40px;
     padding-bottom:40px;
 }
 #officers{
     padding-top:60px;
+}
+.primary{
+	border-color:white;
+}
+a{
+	color:white;
+}
+a:hover,
+a:focus {
+    color: white;
 }

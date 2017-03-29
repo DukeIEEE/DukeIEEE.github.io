@@ -1,12 +1,13 @@
 
 #calendar{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 .responsiveCal {
  
 position: relative; padding-bottom: 50%; height: 0; overflow: hidden;
 
 }
+
 .primary{
 	border-color:white;
 }

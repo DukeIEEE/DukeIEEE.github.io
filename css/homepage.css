@@ -24,3 +24,6 @@ header .header-content .header-content-inner p{
     font-family:"Open Sans","Helvetica Neue" ;
     font-weight: bold;
 }
+.btn-primary:hover{
+    text-decoration: underline
+}

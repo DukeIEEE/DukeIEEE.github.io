@@ -6,3 +6,13 @@
     padding-top: 60px;
     padding-bottom: 0px;
 }
+.primary{
+	border-color:white;
+}
+a{
+	color:white;
+}
+a:hover,
+a:focus {
+    color: white;
+}

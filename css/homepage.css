@@ -1,5 +1,6 @@
 
 #imgcontainer{
+    margin-bottom: 80px;
 	margin-right: auto;
 	margin-left: auto;
 	max-width:800px;
@@ -26,4 +27,14 @@ header .header-content .header-content-inner p{
 }
 .btn-primary:hover{
     text-decoration: underline
+}
+
+@media (max-width: 767px) {
+#imgcontainer{
+    margin-bottom: 50px;
+   
+}
+.btn{
+    font-size: .75em;
+}
 }
